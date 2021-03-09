@@ -10,4 +10,14 @@ print(values)
 
 #values.remove()
 
+#Updating value
+values[0]="First Value"
+print(values)
+
+del values[0]
+print(values)
+
+del values[-2]
+print(values)
+
 
