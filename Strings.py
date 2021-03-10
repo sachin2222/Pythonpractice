@@ -6,5 +6,5 @@ print(c)
 
 print('India' in str1)
 
-var=str1.split('my')
+var = str1.split('my')
 print(var)
