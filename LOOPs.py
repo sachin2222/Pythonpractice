@@ -19,6 +19,7 @@ for j in range(1, 10, 2):
 print('***************************')
 val = 10
 while val > 1:
+    if val == 3:
+        break
     print(val)
     val = val - 1
-
