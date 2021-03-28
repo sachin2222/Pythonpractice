@@ -1,2 +1,9 @@
-with open('test.txt', 'w') as writer:
-    writer.write('list')
+try:
+    with open('test.txt', 'r') as reader:
+        reader.read()
+
+except Exception as e:
+    print(e)
+
+finally:
+    print("Finally Block excecueted")
